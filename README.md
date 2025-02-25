@@ -1,4 +1,5 @@
 ## classes
+
 MainView.java        // 메인 화면 (입출력 및 메뉴 선택 관리)
 UserAPI.java         // 출력 디자인 (구분선 등)
 UserDAO.java         // 사용자 관리 (회원가입, 로그인, 아이디 찾기 등)
@@ -8,7 +9,7 @@ ExpenseDAO.java      // 지출 내역 관리 (추가, 수정, 삭제, 조회)
 ExpenseDTO.java      // 지출 데이터 객체 (지출 정보 저장)
 IncomeDAO.java       // 입금 내역 관리 (추가, 수정, 삭제, 조회)
 IncomeDTO.java       // 입금 데이터 객체 (입금 정보 저장)
-----
+
 
 ## MainView 주요 MM
 
