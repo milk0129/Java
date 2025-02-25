@@ -8,8 +8,6 @@ UserDAO.java         // 사용자 관리 (회원가입, 로그인, 아이디 찾
 
 UserDTO.java         // 사용자 데이터 객체 (사용자 정보 저장)
 
-UserDB.java          // 사용자 데이터 저장소 (리스트로 저장)
-
 ExpenseDAO.java      // 지출 내역 관리 (추가, 수정, 삭제, 조회)
 
 ExpenseDTO.java      // 지출 데이터 객체 (지출 정보 저장)
