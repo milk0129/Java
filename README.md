@@ -19,7 +19,7 @@ IncomeDAO.java       // 입금 내역 관리 (추가, 수정, 삭제, 조회)
 IncomeDTO.java       // 입금 데이터 객체 (입금 정보 저장)
 
 
-## MainView 주요 MM
+## MainView 
 
  프로그램 실행 (mainShowMenu())
 	 MainView에서 메뉴 출력
