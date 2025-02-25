@@ -21,8 +21,8 @@ IncomeDTO.java       // 입금 데이터 객체 (입금 정보 저장)
 
 ## MainView 주요 MM
 
-* 프로그램 실행 (mainShowMenu())
-	MainView에서 메뉴 출력
+ 프로그램 실행 (mainShowMenu())
+	* MainView에서 메뉴 출력
 	사용자 입력을 받아 회원가입 / 로그인 / 아이디 찾기 / 종료 선택
 
 * 회원가입 (mainRegisterUser())
