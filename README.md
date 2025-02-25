@@ -58,3 +58,33 @@ IncomeDTO.java       // 입금 데이터 객체 (입금 정보 저장)
 * 잔액 확인 (mainShowBalance())
 	총 입금 (incGetTotal()) - 총 지출 (expGetTotal()) 계산 후 출력
 
+
+## UserDTO (데이터 저장)
+
+사용자 정보를 저장하는 객체
+userId, userName, userBirth, userCreateAt 필드를 가짐
+getter/setter를 통해 데이터 접근
+
+## UserDAO (비즈니스 로직 & 데이터 관리)
+
+UserDTO 객체를 리스트로 관리 (ArrayList<UserDTO>)
+사용자 등록, 로그인, 아이디 찾기 기능 제공
+사용자 ID 중복 체크, 패스워드 검증, 가입 처리
+
+## ExpenseDTO (데이터 저장)
+사용자의 지출 내역을 저장하는 객체
+expDate, expItem, expMoney, expCategory, expMemo, expId 필드를 가짐
+getter/setter로 데이터 접근 가능
+
+## ExpenseDAO (비즈니스 로직 & 데이터 관리)
+ExpenseDTO 객체를 리스트로 관리 (Map<String, List<ExpenseDTO>>)
+특정 사용자의 지출 추가, 삭제, 수정, 총합 계산 기능 수행
+
+## IncomeDTO (데이터 저장)
+사용자의 입금 내역을 저장하는 객체
+incDate, incItem, incMoney, incCategory, incMemo, incId 필드를 가짐
+getter/setter로 데이터 접근 가능
+
+## IncomeDAO (비즈니스 로직 & 데이터 관리)
+IncomeDTO 객체를 리스트로 관리 (Map<String, List<IncomeDTO>>)
+특정 사용자의 입금 추가, 삭제, 수정, 총합 계산 기능 수행
